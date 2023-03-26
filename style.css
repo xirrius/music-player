@@ -143,9 +143,27 @@ i:hover{
     opacity: 1.0;
 }
 
+@media (max-width: 300px){
+    .player{
+        position: relative;
+        background: rgba(255,255,255,0);
+        box-shadow: none;
+    }
+    .player img{
+        border-radius: 50%;
+        width: 70%;
+        height: 70%;
+    }
+    .player .player_slider input{
+        width: 50vw;
+    }
+}
+
 @media (max-width: 450px){
     .player{
         position: relative;
+        background: rgba(255,255,255,0);
+        box-shadow: none;
     }
     .tracklist {
         width: 5rem;
