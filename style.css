@@ -10,7 +10,6 @@ body{
 }
 .tracklist{
     width: 17rem;
-    background-color: #444444;
     position: absolute;
     right: 1rem;
     top: 1rem;
@@ -144,6 +143,26 @@ i:hover{
     opacity: 1.0;
 }
 
+@media (max-width: 450px){
+    .player{
+        position: relative;
+    }
+    .tracklist {
+        width: 5rem;
+        background: rgb(70,70,70);
+    }
+    .player img{
+        height: 40%;
+        width: 55%;
+        border-radius: 70px;
+    }
+    .player .previous, .play, .next{
+        font-size: 0.7rem;
+    }
+    .player .player_slider p{
+        font-size: 70%;
+    }
+}
 
 @media (max-width: 576px) { 
     .player{
