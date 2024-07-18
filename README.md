@@ -1,5 +1,7 @@
 # Music Player
 
+https://github.com/user-attachments/assets/98f1368b-9f3e-4c40-bdf6-306d3485be8c
+
 A simple music player created using HTML, CSS, Bootstrap5 and JavaScript.
 
 ## To-Know
